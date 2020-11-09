@@ -9,7 +9,6 @@ class BooksController < ApplicationController
   end
 
   def top
-    @book = Book.new
   end
 
   def edit
